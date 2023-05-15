@@ -1,0 +1,21 @@
+.place__image {
+    width: 440px;
+    object-fit: cover;
+}
+
+@media screen {
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__image {
+        align-self: self-start;
+        width: 340px;
+       
+    }
+}
+
+@media screen and (max-width:767px) {
+    .place__image {
+        width: 100%;
+    }
+}

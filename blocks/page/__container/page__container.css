@@ -1,0 +1,23 @@
+.page__container {
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-left: clamp(16px, calc(8vw - 8px), 48px);
+    padding-right:clamp(16px, calc(8vw - 8px), 48px);
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .page__container { 
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page__container { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+}
+    
