@@ -4,6 +4,12 @@
     gap:26px;
 }
 
+@media screen and (max-width:768px) and (max-width:1024px) {
+    .place__paragraphs {
+        gap:25px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .place__paragraphs {
         margin: 0 auto;

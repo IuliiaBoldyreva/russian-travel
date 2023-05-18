@@ -1,0 +1,15 @@
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places_border {
+     padding: 0 48px;
+     box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .places_border {
+        padding: 0 0 2px 0;
+        box-sizing: border-box;
+   }
+}

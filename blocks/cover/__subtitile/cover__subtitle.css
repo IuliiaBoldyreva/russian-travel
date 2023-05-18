@@ -14,6 +14,8 @@
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        max-width: 78%;
-    }
+        max-width: 273px;
+        text-align: center;
+        
+}
 }

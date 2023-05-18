@@ -26,4 +26,8 @@
         row-gap: 32px;
         column-gap: 0;
     }
+
+    /*.place:last-child {
+        padding-bottom: 2px;
+    }*/
 }
